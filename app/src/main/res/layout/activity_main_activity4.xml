@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/jrnl"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/editText"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Title:"
+        android:id="@+id/textViewnotetitlelabel" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="My Awesome Day to remember"
+        android:ems="20"
+        android:id="@+id/editTextnotetitle" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Note:"
+        android:id="@+id/textViewnotelabel"
+        android:textColor="@android:color/background_dark" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editTextnote"
+        android:layout_gravity="center"
+        android:layout_weight="1.00"
+        android:text="e.g. Had a great day today! It was super from the start! And the end was even more mesmerising"
+        android:gravity="top|left"
+        android:textColor="@android:color/background_dark" />
+
+
+</LinearLayout>

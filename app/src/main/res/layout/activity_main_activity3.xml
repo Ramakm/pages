@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/jrnl"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="16th march Monday"
+        android:id="@+id/textView"
+        android:textColor="@color/background_material_dark"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Rama's b day there will be a small party all friends are invited"
+        android:id="@+id/textView2"
+        android:layout_weight="0.10"
+        android:textColor="@color/material_deep_teal_200"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2" />
+
+    <TextClock
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/textClock" />
+
+
+</LinearLayout>
